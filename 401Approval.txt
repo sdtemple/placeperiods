@@ -1,0 +1,68 @@
+CIS 401 Research Approval
+Student: Seth Temple (951416664)
+Faculty Advisor: Stephen Fickas
+
+Description of project:
+I will be developing an artificial neural network that takes as input text files without periods
+and returns as output the same text files, but with periods in the grammatically correct position.
+This project introduces me to natural language processing and machine learning topics, and it requires
+me to gain facility with a variety of popular machine learning and NLP packages in python.
+
+Requirements for completion of credits, brief description of duties:
+
+Content Readings
+	Deep Learning with Python
+	Applied Text Analysis with Python
+	Natural Language Processing with Python Cookbook
+	Online articles about NLP and machine learning
+	Other textbooks about NLP and machine learning
+
+Gain facility with the following packages
+	gensim
+	word2vec
+	keras
+	theano
+	tensorflow
+	sklearn
+	pandas
+	numpy
+	nltk
+
+Be able to explain the following CS concepts
+	Skip-gram models
+	Vectorized representation of text
+	Artificial neural network
+	Backpropagation and learning algorithms
+	Unsupervised learning versus supervised learning
+	Network topology of a neural network
+	What the adjective 'deep' in deep learning means
+	Broad overview of relevant topics in and history of NLP
+
+Develop an artificial neural network to place periods where they belong in a sentence
+Create .py files to preprocess text data from Wiki dumps and other sources (YouTube?)
+Run jobs on GPU to teach the artificial neural network (talapas)
+Meet weekly or biweekly with faculty advisor to explain my work
+
+Requirements for completion of course, grading will be based on the following criteria:
+
+Student's ability to explain
+	Neural networks
+	The network topology
+	The backpropagation algorithm
+	The code in the .py files
+
+Student's progress at
+	Solving the Place the Period problem
+	Collecting and preprocessing data to use in teaching the neural network
+	Training the the neural network on talapas GPU
+
+Attendance
+	Student puts in 10-20 hours per week on the project (Student putting in ~5 hours during winter term)
+
+(Optional)
+	If the student creates a good neural network to solve the Place the Period problem, 
+	the student could write a short paper about it. The faculty advisor will grade the
+	paper based on clarity, quality and originality.
+
+(Optional)
+	Student could be tasked with other projects if the student finishes the current one
