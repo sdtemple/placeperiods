@@ -1,0 +1,10 @@
+The Uppsala Student English Corpus is a collection of student essays 
+written by Swedish people learning English. I like this dataset because
+grammar and spelling are imperfect. The Swedish students make mistakes and
+write in a colloquial fashion.
+Description: http://www.engelska.uu.se/research/english-language/electronic-resources/use/
+Access: http://ota.ox.ac.uk/ (search word uppsala)
+
+1. Download the data and set up folders on your local machine.
+2. Review code and Run All in IPython with PreProcessUppsala.ipynb.
+3. Review code and Run All in IPython with ProcessPunctuation.ipynb.

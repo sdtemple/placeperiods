@@ -1,0 +1,21 @@
+Resources.
+Google word2vec model - https://code.google.com/archive/p/word2vec/
+Talapas Knowledge Base - https://hpcrcf.atlassian.net/wiki/spaces/TCP/overview
+SLURM Workload Manager - https://slurm.schedmd.com/overview.html
+Conda Cheat Sheet - https://conda.io/docs/_downloads/conda-cheatsheet.pdf
+Uppsala Student English Corpus - http://www.engelska.uu.se/research/english-language/electronic-resources/use/
+Keras - https://keras.io/
+Keras Sequential Models - https://keras.io/models/sequential/
+Keras Multiple GPUs - https://keras.io/getting-started/faq/#how-can-i-run-a-keras-model-on-multiple-gpus
+Keras Core Layers - https://keras.io/layers/core/
+Keras CNNs - https://keras.io/layers/convolutional/
+Keras Optimizers - https://keras.io/optimizers/
+Keras Activations - https://keras.io/activations/
+Keras Loss Functions - https://keras.io/losses/
+Keras GitHub Development - https://github.com/keras-team/keras/tree/master/keras
+How CNNs work - https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html
+CNN Intuitive Explanation - https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/
+Nvidia GPU Programming with Python - https://developer.nvidia.com/how-to-cuda-python
+gensim package - https://radimrehurek.com/gensim/
+deeplizard YouTube Keras playlist - https://www.youtube.com/watch?v=RznKVRTFkBY&list=PLZbbT5o_s2xrwRnXk_yCPtnqqo4_u2YGL
+3Blue1Brown YouTube NN playlist - https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi

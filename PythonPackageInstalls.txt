@@ -1,0 +1,10 @@
+I use Anaconda with Python 3.6 for development.
+Download Anaconda here: https://www.anaconda.com/download/
+
+Execute these commands in the Anaconda Prompt:
+conda install keras
+conda install gensim
+conda install matplotlib
+conda install nltk
+conda install scikit-learn
+

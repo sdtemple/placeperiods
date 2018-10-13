@@ -1,0 +1,26 @@
+I use Talapas in Allen Hall to handle large training of the neural network. The supercomputer uses SLURM as a
+workload manager. Here are some references:
+https://slurm.schedmd.com/overview.html
+https://slurm.schedmd.com/quickstart.html
+https://hpcrcf.atlassian.net/wiki/spaces/TCP/pages/7312376/Quick+Start+Guide
+https://hpcrcf.atlassian.net/wiki/spaces/TCP/pages/6762572/How-to+articles
+https://hpcrcf.atlassian.net/wiki/spaces/TCP/pages/364773381/Memory
+https://slurm.schedmd.com/sbatch.html
+
+How to submit a SLURM job. Assume we have a batch job titled job.bat.
+
+In the command line: sbatch job.bat
+In the batch file, store parameters for the job.
+#!/bin/bash
+#SBATCH --partition=gpu           
+#SBATCH --job-name=buserr    
+#SBATCH --output=buserr.out  
+#SBATCH --error=buserr.err   
+#SBATCH --time=0-04:00:00         
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --gres=gpu:1
+
+I hardly deviated from the choices given in the Talapas User Guide. We receive bus errors and/or
+out-of-memory (oom) kill events when we try to train on too large of a texts dataset. I hack my way
+around this issue by splitting up the data and requesting more memory with #SBATCH --mem=10G.
