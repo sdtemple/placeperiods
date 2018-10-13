@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <div class='jumbotron text-center'>
+    <h1>Model Build and Specifications</h1>
+    <p class='lead' align='justify'>&emsp;We built a convolutional neural network using the <a href='https://keras.io/'>Keras API</a>.
+        We rely on <a href='https://code.google.com/archive/p/word2vec/'>Google's Word2Vec model</a> to give words a vector representation.<br><br>
+        Network topology:<br>
+        1 3-dimensional convolutional layer with 16 filters that convolves one word at a time<br>
+        1 fully-connected layer with 12 nodes and rectified linear unit activations<br>
+        1 fully-connected layer with 1 node and sigmoid activation<br>
+        <br>
+        Model Parameters:<br>
+        Optimizer - rmsprop<br>
+        Loss Function - binary_crossentropy<br>
+        Dropout - No<br>
+        Training Epochs - 10<br>
+        Batch Size - 30<br>
+        </p>
+      <p class='lead' align='justify'>&emsp;We trained out neural network on 64 formal essays written by high school and college students.
+      We used the <a href='https://hpcf.uoregon.edu/content/talapas'>Talapas supercomputer cluster</a> to access GPU nodes for a grid search of parameters.
+      We observed only marginal differences between parameter choices.
+      We tested our period placer on student recalls of short passages and achieved promising results.
+      Area under the Receiver Operating Characteristic curve scored close to 1 for all recalls.
+      Precision, Recall, and F1 from the confusion matrix scored strongly as well.</p>
+      <p class='lead' align='justify'>&emsp;Notably, our CNN lacked complexity, but we achieved strong results.
+      We suspect this success comes from the ability of Google's Word2Vec model to track differences between words in a 300-dimensional vector space.
+      A full stop marks a change in ideas. This shift often occurs with a change in diction.
+      Hence, we can pick up on this change in word choice with content-based word vectorizations and some convolutional filters.</p>
+  </div>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <div class='jumbotron text-center'>
+    <h1>Place the Period</h1>
+    <p class='lead' align='justify'>&emsp;Given English text with no punctuation, we want to predict full stops in the text.
+      We classify periods, question marks, and exclamation marks as full stops.
+      Our model predicts where full stops occur in a text.
+      Its input is a text with no punctuation.
+      Its output is a text with periods placed in specific locations.
+    </p>
+    <form action='' class='lead' method='POST'>
+      Input Text:<br>
+      <textarea name='input' rows=10 cols=100>{{input}}</textarea><br><br>
+      <input type='submit' value='Predict Full Stops' class="btn btn-primary"><br><br><br><br>
+      Output Text:<br>
+      <textarea rows=10 cols=100>{{output}}</textarea>
+  </div>
+{% endblock %}
